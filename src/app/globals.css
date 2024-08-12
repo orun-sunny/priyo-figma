@@ -7,6 +7,14 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+/* Define the font-face for DIN Alternate */
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("/fonts/DINAlternate-Regular.woff2") format("woff2"),
+    url("/fonts/DINAlternate-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
