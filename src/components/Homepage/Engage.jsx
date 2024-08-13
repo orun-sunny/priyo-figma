@@ -61,7 +61,7 @@ const Engage = () => {
           <p className="text-base lg:text-lg">
             Our DOOH solutions have proven incredibly effective, with nearly
             two-thirds of viewers taking a measurable action, such as visiting
-            the brand's website or making a purchase.
+            the  website or making a purchase.
           </p>
         </div>
       </div>
