@@ -3,7 +3,28 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <div className="container mx-auto py-6 ">
+    <div className="relative container mx-auto py-6 ">
+      <div className="absolute top-0 right-0 transform -translate-x-1/2 translate-y-1/2">
+        <Image
+          alt="top-right-corner-image"
+          src="/assests/rightbeni.png"
+          width={120}
+          height={50}
+          className="object-cover hidden lg:block lg:pb-"
+        />
+      </div>
+
+      {/* Bottom Left Corner Image */}
+      <div className="absolute bottom-0 left-0 transform translate-x-1/2 -translate-y-1/2">
+        <Image
+          alt="bottom-left-corner-image"
+          src="/assests/baleft.png"
+          width={150}
+          height={150}
+          className="object-cover hidden lg:block  "
+        />
+      </div>
+
       {/* Grid Container for First Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:px-48 items-center">
         {/* Left Side - Image */}

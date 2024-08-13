@@ -15,7 +15,13 @@ const Banner = () => {
         />
 
         <div className="w-full lg:w-1/2 space-y-5 p-4">
-          <Image alt="logo" src="/assests/Logo.png" height={60} width={150} />
+          <Image
+            alt="logo"
+            src="/assests/Logo.png"
+            height={60}
+            width={150}
+            className="hidden lg:block"
+          />
           <h1 className="text-2xl lg:text-3xl font-semibold  font-din leading-8">
             Amplify Your Brand’s Voice in the Heart of Bangladesh’s Marketplaces
           </h1>
